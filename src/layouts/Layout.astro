@@ -6,7 +6,6 @@ import { getHtmlAttrs } from 'i18n:astro'
 import Favicons from '@components/Favicons.astro'
 import Footer from '@components/Footer.astro'
 import Navbar from '@components/Navbar.astro'
-import Social from '@components/Social.astro'
 import 'sanitize.css'
 import 'sanitize.css/assets.css'
 import 'sanitize.css/typography.css'
@@ -167,7 +166,6 @@ const { title, description, metaRobots } = options
 
     <Footer />
 
-    <Social />
     <slot name="dynamic-components" />
   </body>
 </html>

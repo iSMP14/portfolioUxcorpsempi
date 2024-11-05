@@ -16,23 +16,24 @@ const {
 
 <section class="hero">
   <div>
-    <div class="badge">
-      <span class="dot"></span>
-      <span>{jobAvailability}</span>
-    </div>
     <h1>{title}</h1>
     <section>
       <p set:html={jobTitle} />
       <p>{description}</p>
     </section>
     <section class="button-container">
-      <Button class="filled" href="#">{cta}</Button>
-      <Button href="#">
+      <Button class="filled" href="mailto:javiergcartes14@gmail.com"
+        >{cta}</Button
+      >
+      <Button href="https://www.linkedin.com/in/javiercartesg/" target="_blank">
         <Icon name="linkedin" size={24} />
         <span>LinkedIn</span>
       </Button>
+      <Button href="https://github.com/iSMP14" target="_blank">
+        <Icon name="github" size={24} />
+        <span>Github</span>
+      </Button>
     </section>
-    <canvas id="stars"></canvas>
   </div>
 </section>
 
@@ -74,31 +75,6 @@ const {
         margin-top: 24px;
       }
 
-      & .badge {
-        display: flex;
-        align-items: center;
-        gap: 8px;
-        width: fit-content;
-        margin-inline: auto;
-        background-color: var(--bg-secondary-color);
-        font-size: 0.875rem;
-        padding: 6px 12px;
-        border: 1px solid var(--text-color);
-        border-radius: 1000px;
-        transition: var(--transition-bg), var(--transition-border);
-
-        & .dot {
-          --size: 6px;
-          --color: #22c55e;
-
-          width: var(--size);
-          height: var(--size);
-          background-color: var(--color);
-          border-radius: 50%;
-          box-shadow: 0 0 0 0 var(--color);
-          transform: scale(1);
-          animation: pulse 2s infinite;
-        }
       }
 
       & p {
@@ -147,9 +123,4 @@ const {
   }
 </style>
 
-<script>
-  import { StarField } from '@scripts/starfield'
 
-  const canvas = document.querySelector('#stars') as HTMLCanvasElement
-  new StarField(canvas)
-</script>

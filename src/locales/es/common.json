@@ -1,6 +1,6 @@
 {
   "title": "Javier Cartes - Portfolio",
-  "description": "Desarrollador Web Frontend de Estelí, Nicaragua. Especialista en HTML5, CSS5, JavaScript ES6+, Node.js y WordPress.",
+  "description": "Ing. en Telecomunicaciones y redes / Desarrollador",
   "navbar": [
     {
       "label": "Inicio",
@@ -20,7 +20,6 @@
     }
   ],
   "hero": {
-    "job_availability": "¡Disponible para trabajar!",
     "title": "¡Bienvenido, soy Javier Cartes!",
     "job_title": "<strong>Ing. en Telecomunicaciones y redes / Desarrollador</strong>",
     "description": "Especialista en procastinar",
@@ -30,28 +29,58 @@
     "title": "Experiencia laboral",
     "jobs": {
       "jobs_title": [
-        "Freelance",
-        "HD Media Nicaragua",
-        "Agencia de Marketing Digital"
+        "Arquitectura de redes",
+        "Técnico en Equipos de Seguridad",
+        "Administrador sistemas y redes",
+        "Técnico en fibra óptica",
+        "Ingeniero en Comercializadora",
+        "Desarrollador web"
       ],
       "jobs_description": [
         {
-          "title": "Desarrollador Web Frontend",
-          "time": ["Dic 2021"],
-          "description": "Creo sitios web con diseños modernos y aplicando buenas prácticas de UI/UX. También me encargo de rediseñar, optimizar el posicionamiento SEO, aumentar las medidas de seguridad y optimizar el rendimiento de velocidad de sitios web, para aumentar la taza de conversión y las visitas.",
-          "list": ["Diseño de sitios web", "Optimización de sitios web"]
+          "title": "Administrador de Sistemas y arquitectura de redes en Supermercado La Colérica.",
+          "time": ["Ene 2020", "Jun 2020"],
+          "description": "Encargado de la administración y mantenimiento de sistemas. Diseñé y gestioné la estructura de redes y datos, lo que mejoró la eficiencia operativa del supermercado",
+          "list": [
+            "Redes",
+            "Automatización",
+            "Administración",
+            "Arquitectura de redes"
+          ]
         },
         {
-          "title": "Desarrollador Web en WordPress",
-          "time": ["Nov 2020", "Oct 2021"],
-          "description": "Me encargué de desarrollar sitios web en WordPress para clientes de Nicaragua, durante mi tiempo en la agencia aporté mi conocimiento en seguridad web aumentando las medidas y disminuyendo las brechas de seguridad en WordPress, configurando plugins y estableciendo cabeceras HTTP como Content-Security-Policy (CSP), Cross-Origin-Resource-Policy (CORP), Cross-Origin-Opener-Policy (COOP), etc.",
-          "list": ["Diseño de sitios web", "Optimización de sitios web"]
+          "title": "Tecnico en Dispositivos de Seguridad Audiovisuales (Independiente)",
+          "time": ["Ene 2021"],
+          "description": "Instalación y configuración de sistemas de seguridad audiovisuales en empresas y hogares, asegurando soluciones técnicas confiables y accesibles para los clientes.",
+          "list": ["Redes", "Seguridad", "Administración"]
         },
         {
-          "title": "Marketing Digitalsss",
-          "time": ["Dic 2021"],
-          "description": "Creo sitios web con diseños modernos y aplicando buenas prácticas de UI/UX. También me encargo de rediseñar, optimizar el posicionamiento SEO, aumentar las medidas de seguridad y optimizar el rendimiento de velocidad de sitios web, para aumentar la taza de conversión y las visitas.",
-          "list": ["Diseño de sitios web", "Optimización de sitios web"]
+          "title": "Administrador para entidad gubernamental. Municipalidad de Concepción, Chile",
+          "time": ["Ene 2021", "Mar 2022"],
+          "description": "Apoyo en tareas administrativas usando herramientas de Office, gestión de correos y automatización de procesos. Colaboré en la optimización de redes internas municipales y en la mejora del flujo de datos entre departamentos.",
+          "list": ["Administración", "Redes", "Automatización de procesos"]
+        },
+        {
+          "title": "Técnico de Soporte en Fibra Óptica, TelAustral SpA",
+          "time": ["Feb 2022", "Abr 2022"],
+          "description": [
+            "Especialista en fusión y empalme de fibra óptica, contribuyendo a la expansión y estabilidad de redes de telecomunicaciones. Diseñé y optimicé estructuras de redes y datos para mejorar la conectividad y la eficiencia del servicio."
+          ],
+          "list": ["Redes", "Telecomunicaciones", "Arquitectura de redes"]
+        },
+        {
+          "title": "Ingeniero y Asistente en ComercializadoraCyB. Concepción, Chile",
+          "time": ["May 2023", "Dic 2023"],
+          "description": [
+            "Diseño y desarrollo de aplicaciones y scripts personalizados para automatizar procesos internos, reduciendo tiempos operativos. Gestión de sistemas y recursos gráficos básicos para mejorar la presencia digital de la empresa."
+          ],
+          "list": ["Redes", "Desarrollo", "Automatización", "Administración"]
+        },
+        {
+          "title": "Desarrollador Web, Limpiezaintegrallomas. Concepción, Chile",
+          "time": ["May 2024", "May 2024"],
+          "description": "Responsable del desarrollo y mantenimiento del sitio web. Implementé una estrategia de marketing digital que mejoró la visibilidad del emprendimiento y atrajo nuevos clientes.",
+          "list": ["Desarrollo web", "Diseño"]
         }
       ]
     }
@@ -64,29 +93,6 @@
         "description": "La primer plataforma para conocer los horarios de las terminales de autobuses interlocales del municipio de Estelí, Nicaragua.",
         "image": "/src/images/projects/esteli-buses-project.jpg",
         "techs": ["Astro", "TailwindCSS", "Firebase", "PWA"],
-        "code": "Código",
-        "preview": "Vista previa"
-      },
-      {
-        "title": "Portafolio UX Ana Rangel",
-        "description": "Lorem ipsum dolor sit amet consectetur. Faucibus quis sociis at sagittis egestas sed volutpat. Arcu pellentesque elit volutpat quam. Id dictum sagittis hendrerit diam viverra velit. Blandit id viverra quis lectus faucibus egestas ipsum turpis.",
-        "image": "/src/images/projects/ana-rangel-portafolio.jpg",
-        "techs": ["Astro", "CSS", "SASS", "Open Props", "TypeScript"],
-        "code": "Código",
-        "preview": "Vista previa"
-      },
-      {
-        "title": "Calculadora Payoneer Nicaragua",
-        "description": "Descubre una herramienta esencial para freelancers y negocios en Nicaragua. Nuestra Calculadora Payoneer Nicaragua te permite calcular de manera precisa y rápida las tarifas y comisiones al recibir pagos internacionales a través de Payoneer. ¡Empieza a usarla hoy y toma el control de tus finanzas!",
-        "image": "/src/images/projects/calculadora-payoneer-project.jpg",
-        "techs": [
-          "Astro",
-          "TailwindCSS",
-          "React",
-          "TypeScript",
-          "PWA",
-          "Firebase"
-        ],
         "code": "Código",
         "preview": "Vista previa"
       }
@@ -129,12 +135,8 @@
   },
   "about": {
     "title": "Sobre mí",
-    "subtitle": "Soy mod de Midudev y ManzDev pero más feliz me siento siendo mod de AnaRangel",
-    "description": "Soy un Desarrollador Web Frontend y WordPress con más de 3 años de experiencia, especializado en crear diseños modernos y optimizar el rendimiento web, con un enfoque en tecnologías como HTML 5, CSS 3, JavaScript ES6+ y WordPress. Manejo frameworks como React y Astro, y soy experto en constructores visuales de WordPress, además de tener un fuerte conocimiento técnico en Core Web Vitals, lo que me convierte en un profesional apasionado y altamente cualificado para cualquier proyecto de desarrollo web."
-  },
-  "contact": {
-    "title": "¿Listo para dar vida a tus ideas?",
-    "subtitle": "Puedo impulsar tu proyecto o formar parte de tu equipo"
+    "subtitle": "Javier Cartes, apasionado por la tecnología y el eterno aprendizaje.",
+    "description": "Desarrollador con experiencia e en la creación de aplicaciones web utilizando Stack Vanilla, Tailwind, React, Typescript y Python. Con gran interés en el back-end, conozco C#, .NET, Python y administración de sistemas en Linux. También poseo amplios conocimientos en inteligencia artificial, aplicando prompts para mejorar la productividad. He trabajado en proyectos estatales, municipales y para emprendedores, además de participar activamente en comunidades de programación."
   },
   "footer": {
     "designed": {

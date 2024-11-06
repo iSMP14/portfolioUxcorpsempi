@@ -225,7 +225,11 @@ const normalizeTitle = title
 </style>
 
 <script>
-  const tabButtons = document.querySelectorAll('.tabbutton')
+  const tabButtons = [
+    ...(document.querySelectorAll(
+      '.tabbutton'
+    ) as NodeListOf<HTMLButtonElement>)
+  ]
   const tabContents = document.querySelectorAll(
     '.tabcontent'
   ) as NodeListOf<HTMLDivElement>
@@ -233,7 +237,7 @@ const normalizeTitle = title
   tabButtons.forEach((button) => {
     button.addEventListener('click', (event) => {
       const target = event.target as HTMLButtonElement
-      const index = Array.from(tabButtons).indexOf(target)
+      const index = tabButtons.indexOf(target)
 
       tabButtons.forEach((button) => {
         button.classList.remove('active')

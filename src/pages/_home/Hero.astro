@@ -15,7 +15,7 @@ const {
 
 <section class="hero">
   <div>
-    <h1>{title}</h1>
+    <h1 id="titulo">, soy Javier Cartes</h1>
     <section>
       <p set:html={jobTitle} />
       <p>{description}</p>
@@ -120,6 +120,27 @@ const {
       box-shadow: 0 0 0 0 transparent;
     }
   }
+
+  #titulo::before {
+  content: "Bienvenido";
+  animation-name: CambioAnimado;
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+}
+
+@keyframes CambioAnimado {
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    content: "Welcome"
+  }
+}
 </style>
 
 

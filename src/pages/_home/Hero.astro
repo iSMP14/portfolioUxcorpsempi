@@ -122,25 +122,32 @@ const {
   }
 
   #titulo::before {
-  content: "Bienvenido";
-  animation-name: CambioAnimado;
-  animation-iteration-count: infinite;
-  animation-duration: 5s;
-  animation-timing-function: ease-out;
-  animation-fill-mode: forwards;
-}
+    content: "Bienvenido";
+    animation: CambioAnimado 12s infinite;
+    width: 11ch;
+    display: inline-block;
+    translate: 5px;
+  }
 
 @keyframes CambioAnimado {
-  100% {
-    opacity: 1;
+    0%, 20% {
+      opacity: 1;
+      content: "Bienvenido";
+    }
+    25%, 45% {
+      opacity: 0;
+    }
+    50%, 70% {
+      opacity: 1;
+      content: "Hello World";
+    }
+    75%, 95% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+      content: "Bienvenido";
+    }
   }
-  50% {
-    opacity: 0;
-  }
-  100% {
-    content: "Welcome"
-  }
-}
+
 </style>
-
-
